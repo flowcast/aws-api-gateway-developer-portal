@@ -80,7 +80,7 @@ class App extends React.Component {
     return (
       <BrowserRouter>
         <>
-          <NavBar style={{ background: 'slategray' }}/>
+          <NavBar />
           <GlobalModal />
           <Switch>
             <Route exact path='/' component={HomeWrap} />
