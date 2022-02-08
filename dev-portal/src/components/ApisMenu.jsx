@@ -57,7 +57,7 @@ export default observer(function ApisMenu (props) {
   }
 
   return (
-    <Sidebar >
+    <Sidebar>
       <SidebarHeader
         as={Link}
         className='item'
