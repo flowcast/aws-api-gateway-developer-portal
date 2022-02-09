@@ -35,7 +35,7 @@ export const NavBar = observer(
       const email = store.user && store.user.email
       return <Menu inverted borderless attached style={{ flex: '0 0 auto' }} stackable>
         <MenuLink to='/'>
-          <Image src='/custom-content/nav-logo.png' style={{ paddingRight: '10px' }} />
+          <Image size='mini' src='/custom-content/nav-logo.png' style={{ paddingRight: '10px' }} />
           {fragments.Home.title}
         </MenuLink>
 
