@@ -25,6 +25,8 @@ dev-portal/node_modules/swagger-ui/*
 /dev-portal/deployer.config.js
 /dev-portal/public/config.js
 
+/dev-portal/node_modules/*
+
 # misc
 npm-debug.log
 .DS_Store
